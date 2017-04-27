@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/fontcolor"
+        android:layout_marginBottom="5dip"
+        android:textSize="@dimen/list_font_size"
+        android:id="@+id/book_entry_name"/>
+    <TextView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:visibility="invisible"
+        android:id="@+id/book_entry_id"/>
+</LinearLayout>
