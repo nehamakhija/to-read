@@ -2,6 +2,7 @@
     <string name="app_name">to-read!</string>
     <string name="app_title">Neha\'s Reading List</string>
     <string name="add_book_button">add more!</string>
+    <string name="export_db_button">export</string>
     <string name="book_title">Title?</string>
     <string name="book_author">Author?</string>
     <string name="book_desc">Describe it?</string>

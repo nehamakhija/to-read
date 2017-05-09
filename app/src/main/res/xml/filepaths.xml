@@ -1,0 +1,5 @@
+<paths>
+    <files-path
+        path="../files/"
+        name="my_files" />
+</paths>

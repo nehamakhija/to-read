@@ -40,4 +40,15 @@
         android:onClick="addBook"
         android:background="@color/Transparent"
         android:text="@string/add_book_button" />
+
+    <Button
+        android:id="@+id/exportDbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="exportDb"
+        android:background="@color/Transparent"
+        android:text="@string/export_db_button" />
 </RelativeLayout>
