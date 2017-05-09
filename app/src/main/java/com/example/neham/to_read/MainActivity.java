@@ -177,6 +177,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void searchDb(View view) {
+
+        //move to search activity
+        Intent intent = new Intent(this, SearchActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivity(intent);
+
+    }
     public void updateUI(){
 
         //updates the list to get books from db,and formats it
