@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //load fonts
         luna=Typeface.createFromAsset(getAssets(),"fonts/Luna.ttf");
         cl=Typeface.createFromAsset(getAssets(),"fonts/CeriaLebaran.otf");
-        poetsen1 = Typeface.createFromAsset(getAssets(), "fonts/Luna.ttf");
+        poetsen1 = Typeface.createFromAsset(getAssets(), "fonts/PoetsenOne.ttf");
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
